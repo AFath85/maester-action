@@ -1,21 +1,21 @@
-# <img src="https://maester.dev/img/logo.svg" alt="Maester logo" height="40" width="40" /> Maester Test Results
+# <img src="https://onecdn.io/media/3157b5e8-9d00-4757-ab9b-b6fea1ca8d4d/md2x" alt="Maester logo" height="40" width="40" /> NWS M365 Tenant Check
 
-This is a summary of the test results from the Maester test run.
+Zusammenfassung der Testergebnisse des Testlaufs
 
 **Tenant:** %TenantName%
 
-**Date:** %TestDate%
+**Datum:** %TestDate%
 
-| 🔥 <br/> Total Tests | ✅ <br/> Passed  | ❌ <br/> Failed | ❔ <br/> Not Run |
+| 🔥 <br/> Tests insgesamt | ✅ <br/> bestanden  | ❌ <br/> fehlgeschlagen | ❔ <br/> n/a |
 |:-:|:-:|:-:|:-:|
 | **%TotalCount%** | **%PassedCount%** | **%FailedCount%** |**%NotRunCount%** |
 
 
-## Test summary
+## Test Zusammenfassung
 
 %TestSummary%
 
-## Test details
+## Test Details
 
 %TestDetails%
 
