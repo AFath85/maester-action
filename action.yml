@@ -65,12 +65,12 @@ inputs:
 
   mail_recipients:
     description: "A list of email addresses to send the test results to. Please separate multiple email addresses with a comma."
-    required: true
-    default: "A.Fath@networker-solutions.de,fath.adrian@gmail.com,f.fuss@networker-solutions.de"
+    required: false
+    default: ""
   mail_userid:
     description: "The user id of the sender of the mail. This is required since the action is using application permissions."
-    required: true
-    default: "848481e8-167c-4dff-ab62-66dbb983a127"
+    required: false
+    default: ""
   mail_testresultsuri:
     description: "Uri to the detailed test results page."
     required: false
