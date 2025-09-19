@@ -73,7 +73,7 @@ inputs:
     default: "848481e8-167c-4dff-ab62-66dbb983a127"
   mail_testresultsuri:
     description: "Uri to the detailed test results page."
-    required: true
+    required: false
     default: "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
 
   notification_teams_webhook:
