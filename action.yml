@@ -78,8 +78,8 @@ inputs:
 
   notification_teams_webhook:
     description: "Webhook URL for sending test results to Teams."
-    required: false
-    default: ""
+    required: true
+    default: "https://default45e6574841c94d6ca404697ef091c2.9d.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/3d356b68bbb8450991610451831d077b/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=6WdUXN58WTjnXtteGXHxMyo3YArjr84SPlnep3ZibGo"
   notification_teams_channel_id:
     description: "The ID of the Teams channel to send the test results to."
     required: false
